@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic input types</title>
+    <link rel = "stylesheet" href="C:\Users\Lavanya\Documents\Bridgelabz\CSSFolder\Simple.css">
+</head>
+
+<form class="form-style-7">
+    <header class="headerContainer"><h1>HTML5 Input Forms</h1></header>
+    <ul>
+    <li>
+        <label for="name">Name</label>
+        <input type="text" name="name" maxlength="100">
+        <span>Enter your full name here</span>
+    </li>
+    <li>
+        <label for="password">Password</label>
+        <input type="password" name="password" maxlength="100">
+        <span>Enter a valid email address</span>
+    </li>
+    <li>
+        <label for="email">Email</label>
+        <input type="email" name="email" maxlength="100">
+        <span>Enter a valid email address</span>      
+    </li>
+    <li>
+        <label for="url">Url</label>
+        <input type="url" name="url" maxlength="100">
+        <span>Your website URL</span>
+    </li>
+    <li>
+        <label for="phonenumber">PhoneNumber</label>
+        <input type="text" name="PhoneNumber" maxlength="100">
+        <span>Your website URL</span>
+    </li>
+    <li>
+        <label for="startDate">choose a date and time: </label>
+        <input type="date" id="startDate" name="startDate">
+        <span class="validity"></span>
+    </li>
+    <li>
+        <label for="salary">choose your sallary: </label>
+        <input type="range" id="salary" name="salary"
+            min="300000" max="500000" step="100" value="400000">
+        <output class="salary-output" for="salary">400000</output>
+    </li>
+    <li>
+        <input type="submit" value="Sumbit" >
+    </li>
+    </ul>
+</form>
